@@ -27,5 +27,4 @@ jobs:
       run: |
         git remote add cnb https://cnb.cool/bettergi/genshin-redeem-code.git || true
         git push https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/bettergi/genshin-redeem-code.git main
-      continue-on-error: true
     
